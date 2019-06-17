@@ -9,6 +9,8 @@ equipo detrás de este nuevo producto ha decidido contratar a una
 agencia/consultora de UX que los ayude a definir la dirección y evolución del
 producto; la cual estará encargada de presentar un nuevo diseño en dos semanas y de proponer si se debe o no duplicar el presupiesto de Facebook Ads.
 
+Para lo cual nos proporcionaron la siguiente carpeta: [Carpeta de Data](https://drive.google.com/open?id=1gV6PwrT6SZigVTJ67q8W-dFzGTLePUyK)
+
 ## Objetivos
 
 - Rediseñar un producto ya existente.
@@ -40,6 +42,10 @@ El primer paso fue acordar una entrevista con Lalo Gonzalez, para poder conversa
 ### Documentación:
 
 [Audio de la Entrevista](https://drive.google.com/open?id=1987Mmm6yqmWxv_3TQNohwg5DB2noXEuI)
+
+### Objetivo del Banco:
+
+* Fidelizar y fomentar la cultura de ahorro de los clientes.
 
 ### Conclusiones:
 
@@ -155,10 +161,73 @@ Para realizar el Testing Online se utilizó la Herramienta Maze, ésta herramien
 
 Luego de realizar las entrevistas, procedemos a elaborar el affinity map con la finalidad de agrupar y categorizar temas recurrentes.
 
+<center>
+
+![image](https://user-images.githubusercontent.com/47750982/59631421-62d15880-910d-11e9-8ddf-c17d3af463a0.png)
 
 
+</center>
 
+[Fotos del proceso](https://drive.google.com/open?id=1NyRpxnMQvNKNhNhjfnUJBkUAPcBwfSD0)
 
+[Conclusiones de cada grupo](https://docs.google.com/document/d/1vhcpZga_J8jl-ww2CdVO7yhKN4s3udxxQ09Hmj01jA4/edit?usp=sharing)
+
+Realizamos 10 entrevistas en total. Una vez terminadas las entrevistas, analizamos los resultados y los dividimos en 14 grupos, los cuales son:
+
+- Cultura de Ahorro.
+- Ocupación.
+- Redes Sociales.
+- Ocio.
+- Canal.
+- Sistema Operativo.
+- Valoración.
+- Tarjetas.
+- Servicios.
+- Influencias.
+- Metas.
+- Sugerencias.
+- Publicidad.
+- Flujo.
+
+### Principales conclusiones:
+
+* El 50% de las personas entrevistadas estudian y el otro 50% trabajan.
+* El 70% de las personas entrevistadas utilizan el Sistema operativo Android.
+* Las personas entrevistadas saben que el ahorro es muy importante, pero no lo practican.
+* Lo que valoran de las aplicaciones de banco, es que tenga todos los servicios para realizar de manera rápida cualquier trámite.
+* Sólo el 40% vió alguna publicidad en Facebook, pero no ingresaron a link.
+
+## 2. User Persona
+
+Con las entrevistas y la elaboración del affinity map, creamos una user persona principal llamada **Cecilia Molina** y un user persona secundario llamado **Sebastián Arias**. Los caules representan a todos nuestros posible usuarios, sus frustraciones, motivaciones, sus datos demográficos, etc.
+
+### User Persona Principal
+
+<center>
+
+![user 1](https://user-images.githubusercontent.com/47750982/59633379-fad14100-9111-11e9-9244-3e986209e482.png)
+
+</center>
+
+### User Persona Secundario
+
+<center>
+
+![user 2](https://user-images.githubusercontent.com/47750982/59633883-1c7ef800-9113-11e9-8433-a44da34d0cad.png)
+
+</center>
+
+## 3. Customer Journey Map
+
+Esta herramienta nos sirvió para identificar y solucionar los puntos relevantes del viaje del usuario. Los puntos a enfocarnos son: la búsqueda de información, la comunicación entre el cliente y la empresa, los medios de pago y el servicio personalizado.
+
+<center>
+
+![Customer Journey Map](ThePlanningCo/Imagenes/customerjourneymap.jpg)
+
+</center>
+
+[Proceso del Customer Journey Map](https://drive.google.com/open?id=13whu8XL7CGXEO2hLvr0Ose10GZl_KkQF)
 
 
 ## Entrega
