@@ -1,127 +1,165 @@
-# Aplicación financiera
+# Tus Finanzas
 
-## Preámbulo
+## Contexto
 
 El banco más importante del país ha lanzado una nueva aplicación móvil al
 mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar
 el ahorro. Luego de tener algunos meses en el mercado y algo de tracción, el
 equipo detrás de este nuevo producto ha decidido contratar a una
 agencia/consultora de UX que los ayude a definir la dirección y evolución del
-producto. Tú y otra compañera de Laboratoria trabajan en la agencia/consultora
-de UX y son asignadas al proyecto.
+producto; la cual estará encargada de presentar un nuevo diseño en dos semanas y de proponer si se debe o no duplicar el presupiesto de Facebook Ads.
 
-## Introducción
+## Objetivos
 
-### Contexto
+- Rediseñar un producto ya existente.
+- Poner en práctica habilidades de: análisis de datos, investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño de componentes de la interfaz y user testing.
 
-Durante la primera semana de entendimiento de los requerimientos, el Product
-Manager del equipo les brinda el contexto:
+## Implementación
 
->“Todo empezó hace un año cuando vimos que en EEUU y Europa estaban saliendo
-  nuevas aplicaciones financieras que nos llamaron la atención. Unas se enfocan
-  en darle visibilidad a sus usuarios sobre los gastos, otras en facilitar pagos
-  a terceros y otras a fomentar el ahorro. Inspirados en un par de ellas,
-  decidimos lanzar una nueva aplicación. Decidimos que era mejor crear un
-  producto desde cero - en lugar de modificar la aplicación actual de banca
-  móvil - para poder desarrollarla con un equipo totalmente nuevo, en el
-  laboratorio de innovación, bajo prácticas ágiles. Sabemos que no es ideal que
-  nuestros usuarios tengan que usar dos aplicaciones, pero desarrollar con un
-  equipo nuevo que corra ágil nos da mayor libertad.
+Para poder llevar a cabo nuestra investigación se realizó lo siguiente:
 
-> Empezamos entrevistando a algunos usuarios y revisando los resultados de un
-  estudio de mercado que nos proporcionó el área de marketing. Eso nos dió una
-  idea inicial de qué funcionalidades son más relevantes aquí en nuestro
-  mercado. Con base en esos resultados, creamos nuestros primeros user personas
-  una primaria y una secundaria ( creemos que estas personas no son las que
-  nosotros pensábamos inicialmente), y diseñamos y desarrollamos un ‘Producto
-  mínimo viable’ (MVP) en 2 meses en iOS. Ese MVP lo hemos lanzado y tenemos
-  alrededor de 6 meses de data. Hoy estamos en el proceso de entender los
-  resultados iniciales y de sacar una segunda iteración del producto. Y para eso
-  las hemos contratado. Toda la documentación de este producto la tenemos en una
-  carpeta de [Google Drive](http://bit.ly/uxd-reto-2). Les doy acceso.
-  
-> Necesitamos traer una propuesta del nuevo diseño en dos semanas porque tenemos
-  que presentarla a nuestro Gerente General en la reunión trimestral. Es
-  importante que cualquier cosa que presentemos ya incorpore feedback de testing
-  con usuarios. El Gerente General, animado por el crecimiento del número de
-  descargas que ha tenido el app, quiere duplicar el presupuesto de Facebook
-  Ads… Yo no estoy tan seguro; quisiera que como parte de su trabajo estas
-  próximas dos semanas, entendamos ese punto también.”
+|Actividad|Descripción|Puntos|
+|:----|:---|:---:|
+|Entrevistas con cliente|Realización de entrevistas con el cliente (dueño del reto) y establecimiento de sus metas y objetivos.|25|
+|Benchmark| Revisión de features de la competencia y referencias análogas. | 20 |
+|Entrevistas con usuarios| Entrevistas en profundidad con al menos 5 usuarios. | 60 |
+|Testeos de las soluciones actuales de la competencia/actual|Sesiones de testing de productos actuales de la competencia para ver qué atributos valoran los usuarios. Al menos 5 usuarios|50|
+|Testeos de prototipos| Sesiones de testing de la solución propuesta (baja, media y alta fidelidad) con al menos 5 usuarios por sesión. | 60 |
+|Prototipado de alta fidelidad| Elaboración de prototipo en base a las pantallas diseñadas. | 80 |
+TOTAL | | 295 |
 
-![preview app de finanzas](https://lh3.googleusercontent.com/WyfUPurRuoXyyeZScQtdLhk063ZozToVlujoljul3TDwJW5KZy3Om_LvuB-TB9IcG2r_BCSpoXtXL-bZjIeGBFxQmL4GYEM2QXnQovq6EvixYaO_Z5-gFMvljM9jye7bVofendMteBI)
+[Archivo de implementación](https://drive.google.com/open?id=1-1siR0Zi9xdoQZ5iElPtZBqHcOngGFqfqiQqNjMQ-bE)
 
-### Recursos
+***
+## **I. Descubrimiento e Implementación**
 
-En esta carpeta de [Google Drive](http://bit.ly/uxd-reto-2) y en los siguientes
-links, encontrarán:
+## 1. Entrevista con el Product Manager
 
-- Los user persona primario y secundario del proyecto
-- Los user flows iniciales y actuales del proyecto del MVP
-- El [diseño del app en Figma](https://www.figma.com/file/Gr5GEIRrjF9eIplIeEHUSJNt/proyecto-2-banca?node-id=0%3A477)
-  , con una guía de componentes y el [Prototipo navegable](https://marvelapp.com/e9h245e)
-- Funnel Analytics de los primeros 6 meses del MVP
-- Data de uso del MVP de los primeros 6 meses
-- [Landing Page](http://tus-finanzas.pagedemo.co) inicial del producto
+El primer paso fue acordar una entrevista con Lalo Gonzalez, para poder conversar sobre el banco, los interes que tiene sobre la app financiera, que quiere mejorar; entre más cosas que puedan ser de utilidad para nuestra investigación. 
 
-## Objetivos de aprendizaje
+### Documentación:
 
-El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar
-un producto ya existente. Muchas de ustedes terminarán trabajando en productos
-existentes y deben estar familiarizadas con el proceso de analizar la data del
-producto, complementar con investigación de campo y con esto definir una
-estrategia de crecimiento del producto. Puedes leer sobre el trabajo de un
-UX Designer en rediseño este [blogpost](https://blog.continuum.cl/preguntas-para-dejar-de-ser-ux-designer-y-empezar-a-ser-un-ux-redesigner-143e5467ec8d).
+[Audio de la Entrevista](https://drive.google.com/open?id=1987Mmm6yqmWxv_3TQNohwg5DB2noXEuI)
 
-En este proyecto pondrás en práctica habilidades de: análisis de datos,
-investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño
-de componentes de la interfaz y user testing.
+### Conclusiones:
 
-## Consideraciones generales
+* Selección de paleta de colores de preferencia. Sin embargo, no tiene relación significativa con los colores del banco.
+* User persona principal es un nativo digital, por lo tanto, usaría más rápido la aplicación.
+* No se sincroniza con tarjetas de crédito porque es lo opuesto al ahorro.
+* App enfocada en fomentar una cultura de ahorro en base a contexto y forma de la cuenta de ahorros de sus usuarios.
+* Sistema de fidelización para los usuarios para posicionarse como banco principal.
+* Tendencia a realizar con sistema iOS.
+* Acumulado de movimientos diarios para muestra de gastos mensuales por categoría.
+* El deseo de duplicar la cantidad de facebook ads se debe a que su público actual se captó a través de eso.
 
-Como ya habrás notado, gran parte del trabajo de UX tiene relación con el
-desempeño de tus habilidades blandas. Estas habilidades nos acompañan a lo largo
-de cualquier proyecto y su desarrollo es clave para el éxito. Estas habilidades
-no sólo son utilizadas a la hora de entender al usuario, sino a lo largo de toda
-la ejecución, es decir desde cómo planificamos hasta nuestra presentación al
-cliente.
+### Punto a favor:
 
-Anteriormente, nos habíamos concentrado en el desarrollo de tu curiosidad y
-empatía, practicado cómo relacionarte con el cliente y el usuario. Siempre debes
-pensar quiénes son y qué necesitan, y no enfocarte en lo que tú consideras que
-podría ser la solución correcta. Se trata de entender que nosotros no somos el
-usuario, y debemos hacer el ejercicio empático de comprenderlo a él y a nuestro
-cliente.
+* Crecimiento notable en los últimos 6 meses.
 
-Este proyecto, a diferencia de otros, no debes partir desde cero generando un
-prototipo, sino investigar lo que el banco ya ha construido y en base a eso
-proponer un nueva alternativa. Para esto, te aconsejamos comenzar por investigar
-la información que tienes; entender qué datos ya manejas y qué elementos
-necesitas averiguar para completar tu proyecto. De esta manera, tu planificación
-es muy relevante para comprender la problemática.
+## 2. Análisis de la Data
 
-Al planificar podrás comprender de qué manera estructurar tu proyecto y qué
-elementos debes investigar. Además, te permitirá trabajar de mejor manera con tu
-compañera, te aconsejamos que consideres tiempo para poder iterar sobre las
-posibilidades de mejora y también para preparar la presentación.
+### Objetivos:
 
-La calidad del proyecto depende totalmente de tu proactividad y autoaprendizaje,
-si no conoces plataformas financieras parte por investigar sobre ellas. No
-esperes que los contenidos lleguen a ti, más bien busca todo lo que necesites
-para poder encontrar la mejor solución.
+* Determinar si se debe duplicar la inversión en facebook ads.
+* Comprobar la fidelización de usuarios.
 
-Parte importante de tu trabajo como UX designer es tomar decisiones.
-Efectivamente existen múltiples herramientas que puedes utilizar, debes
-comprender para qué y con qué finalidad escoges usar cada una de ellas. Siempre
-piensa que debes justificar todo gasto con tu consultora y con el cliente, cada
-decisión que tomes en el proyecto debe ser fundamentada, no sigas pasos
-mecánicos por seguirlos, cuestiónate constantemente.
+### Investigación:
 
-Por último, considera que la calidad de tu presentación es tan importante como
-el proceso completo. Un proyecto que no se aprecia al ser presentado no es un
-buen proyecto. Si vas a utilizar una ppt frente a un cliente, se prolija en el
-diseño de tus láminas y en la información que entregas, también busca la mejor
-manera de mostrar tu demo y por sobre todo prueba antes de presentar frente al
-cliente. En la presentación no deben ocurrir errores.
+Dentro de la data otorgada por el cliente, se pudo identificar ciertos factores que influyen la decisión en relación a la inversión en facebook ads. Estos son los siguientes:
+
+**Análisis Funnel & Visitors-Mobile-Device**
+
+A pesar de que las impresiones de facebook sea un número razonable, desde el mes de su lanzamiento los porcentajes de pérdida aumentaron en un 3,2%.
+
+![impresiones en facebook](https://user-images.githubusercontent.com/47750982/59626388-5fd06b00-9101-11e9-9fd1-29bf92ff248c.png)
+
+Y esto se debe a la diferencia de usuarios y nuevos usuarios a nivel de sistemas que poseen los celulares. Los ads de facebook están captando al público que no utiliza el sistema iOS. Por lo tanto, no podrán utilizar la aplicación por poseer el sistema android. 
+
+![android](https://user-images.githubusercontent.com/47750982/59626531-bfc71180-9101-11e9-93cc-cd8e14c5ddf5.png)
+
+Adicionalmente, los celulares son el grupo más influyente entre las tablets y las computadoras.
+
+![mobiles](https://user-images.githubusercontent.com/47750982/59626665-10d70580-9102-11e9-9df8-e2343be174c6.png)
+
+### Conclusión:
+
+* Duplicar la inversión no sería conveniente para la empresa porque generaría pérdidas para el banco.
+
+[Análisis de la Data](https://drive.google.com/open?id=1uc1Ced5KWegtuDysdMprOhE64ZoziE5e)
+
+## 3. Benchmark
+
+En el siguiente cuadro se observa a 6 empresas (3 Internacionales y 3 Nacionales), las cuales fueron seleccionadas de acuerdo a las características y al rubro elegido.
+
+La finalidad del benchmark, era ver cómo empresas del mismo rubro mostraban sus servicios, cuáles eran sus puntos fuertes y que era lo que diferenciaba a cada una. 
+
+![benchmarck](https://user-images.githubusercontent.com/47750982/59627108-197c0b80-9103-11e9-92cf-9a6e651339a3.png)
+
+
+### Conclusiones:
+
+* Sólo 3 de 6 apps cuentan con la opción de personalización de metas.
+* Solo 4 empresas pertenecen a un banco, las otras dos sólo son aplicaciones qu te ayudan a un objetivo concreto.
+* 3 de 6 apps cuentan con Landing Page de la aplicación.
+
+[Cuadro de benchmark](https://drive.google.com/open?id=1roUz9f_Ic_wJ71qReFYALXvParvWEmVyEUNqMudvN1g)
+
+## 4. Entrevista con posibles usuarios
+
+### Objetivo:
+
+* Constatar el User Persona del Cliente.
+
+### Documentación:
+
+Realizamos entrevistas a posibles usuarios, entre ellos se ralizaron 5 del User Persona Primario y 5 del User Persona Secundario.
+
+[Guía de preguntas](https://drive.google.com/open?id=1351BlcJLv1ChtZ5YY-XsY8M4JZnCazVyX1iQ66zdzsU)
+
+[Entrevistas](https://drive.google.com/open?id=1ZIRMYz2HvXp7xcBcbyGzqSVgK9hNV7Cy)
+
+### Problemas identificados:
+
+* Poseen cultura de ahorro, mas no saben como realizarlo.
+* La ocupación es un punto muy importante (estudian o trabajan).
+* Los posibles usuarios tienen metas a corto y largo plazo.
+* Un punto a tener en cuenta es que les gustaría tener todo los servicios que ofrecen en los bancos en una sola aplicación.
+
+## 5. User Testing Online
+
+Para realizar el Testing Online se utilizó la Herramienta Maze, ésta herramienta ayuda a poder testear prototipos, brindándo tareas para que las personas que accedan puedan cumplirlas.
+
+**Personas Testeadas:** 50
+
+### Tareas o Misiones:
+
+1. Creación de un Usuario.
+2. Creación de una cuenta de Ahorros.
+3. Verificar los movimientos de Starbucks en el mes de Agosto.
+4. Verificar los gastos del mes de Agosto.
+
+### Conclusiones:
+
+* Existen muchos pasos para poder acceder al aplicativo.
+* La huella dactilar crea confusión.
+* El menú es demasiado confuso.
+* Mejorar la ubicación de las opciones.
+
+[Link del Test Online](https://maze.design/projects/3569338/mazes/3569092)
+
+***
+
+## **II. Síntesis y Definición**
+
+## 1. Affinity Map
+
+Luego de realizar las entrevistas, procedemos a elaborar el affinity map con la finalidad de agrupar y categorizar temas recurrentes.
+
+
+
+
+
+
 
 ## Entrega
 
@@ -149,56 +187,3 @@ Un video en Loom de máximo 5 minutos explicando tu documento.
 En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
 agregar los documentos complementarios que sustenten tu proceso.
 
-### Hacker edition
-
-Para el hacker edition puedes elegir una o varias de estas opciones:
-
-- Antes de empezar a desarrollar este proyecto, lista cuáles fueron tus
-  aprendizajes durante el proyecto 1 y en qué cosas te gustaría mejorar durante 
-  el proyecto 2. Al terminar el proyecto 2 vuelve a esta lista y chequea cómo te 
-  fue con esos retos, ¿los cumpliste? Muestrános esta lista y esta reflexión
-  en un documento adicional (en el formato que prefieras).
-- Investiga sobre chatbots y sustenta si sería bueno incluir uno en alguna parte
-  del journey del uso del producto. Si crees que un chatbot añadiría valor,
-  prototípalo usando [Botsociety](http://bit.ly/ux-chatbot).
-- Adapta el diseño del app para iPhone X/XS/XR.
-- Diseña un app para Apple Watch que complemente tu propuesta.
-- En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
-  su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear
-  tu propia web desde 0. 
-- Escribe un post en Medium contando tu proceso de investigación.
-- Crea un video mostrando el demo del app, aquí algunos ejemplos:
-  - [Nequi](https://www.youtube.com/watch?v=BDLAXvSQCZ8)
-  - [Simple Bank](https://www.youtube.com/watch?v=0eqD5o6422M)
-  - [Pocket](https://www.youtube.com/watch?v=MoJHYNKmS2U)
-  - [Hip Money](https://www.youtube.com/watch?v=BIesWRESgAc)
-
-## Otras consideraciones
-
-### 1) Planeamiento y presupuesto
-
-En el reto del marketplace te entregamos una lista de tareas que podías
-realizar y le asignamos un valor en puntos a cada tarea. Además, te dimos un
-presupuesto de 300 puntos para que los utilices en esas tareas. Para este reto,
-la lista de tareas, el valor en puntos de cada tarea y el presupuesto total
-de las actividades a realizar lo crearás tú y lo tendrás que sustentar con tu
-coach. Adicionalmente, deberás sustentar con tu coach qué entregables harás
-llegar al banco al final de tu investigación y por qué. El coach te aprobará
-estos entregables o te dará feedback para mejorarlos.
-
-Cuando hagas tu presupuesto y pienses en los entregables recuerda que el tiempo
-de desarrollo de este proyecto es de dos semanas. También, recuerda qué partes
-te tomaron más tiempo en el desarrollo del proyecto 1 y los aprendizajes que
-tuviste al desarrollar el proyecto 1.
-
-### 2) Prototipo de alta fidelidad
-
-Existen varias herramientas que puedes utilizar para diseñar el producto,
-en este caso el diseño viene en Figma y el prototipo en Marvel, así que puedes
-seguir usando esas herramientas. Sin embargo, eres libre de utilizar otras
-como Adobe XD e Invision. Para el prototipo intenta utilizar Marvel o Invision,
-ya que para el testing tendrás que usar una herramienta llamada
-[Maze](https://maze.design/) que funciona mejor con estas.
-
-Recuerda que el diseño que trabajes debe seguir los fundamentos de diseño visual
-como: contraste, alineación, jerarquía, entre otros.
