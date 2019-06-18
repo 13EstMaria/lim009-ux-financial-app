@@ -93,7 +93,7 @@ Adicionalmente, esta pérdida se debe considerar debido a que los celulares son 
 </p>
 
 Por lo tanto, se llego a la siguiente conclusión:
-> - Incrementar la inversión en publicidad podría generar mayores pérdidas para el banco, porque gran parte del mercado captado a trvés de facebook posee un sistema diferente al iOS. 
+>- Incrementar la inversión en publicidad podría generar mayores pérdidas para el banco, porque gran parte del mercado captado a trvés de facebook posee un sistema diferente al iOS. 
 
 
 ## Benchmark
@@ -106,19 +106,27 @@ Después, se realizó un estudio con 6 empresas (3 internacionales y 3 nacionale
 
 ## Entrevista con posibles usuarios
 
-### Objetivo:
+A continuación, se decidió realizar entrevistas a personas con características similares a los user personas brindados por el cliente. Con el propósito de constatar la realidad de los perfiles.
 
-* Constatar el User Persona del Cliente.
+Finalmente, con el apoyo de una [guía de preguntas](https://drive.google.com/open?id=1351BlcJLv1ChtZ5YY-XsY8M4JZnCazVyX1iQ66zdzsU), se realizó con 5 personas relacionado al user primario y 5 peronas del user secundario. En consecuencia, se registrar lo siguiente:
 
-### Documentación:
+- La ocupación (estudiar y trabajar) es un factor bastante influyente en los objetivos de los usuarios.
+- Las metas a corto y largo plazo son propuestas en relación a sus actividades cotidianas.
+- La cultura de ahorro del user primario se basa en ser "concientes" que es importante para planificar un mejor futuro.
+- 
 
-Realizamos entrevistas a posibles usuarios, entre ellos se ralizaron 5 del User Persona Primario y 5 del User Persona Secundario.
 
-[Guía de preguntas](https://drive.google.com/open?id=1351BlcJLv1ChtZ5YY-XsY8M4JZnCazVyX1iQ66zdzsU)
+
+
+
+
+
+
+
 
 [Entrevistas](https://drive.google.com/open?id=1ZIRMYz2HvXp7xcBcbyGzqSVgK9hNV7Cy)
 
-### Problemas identificados:
+
 
 * Poseen cultura de ahorro, mas no saben como realizarlo.
 * La ocupación es un punto muy importante (estudian o trabajan).
@@ -215,11 +223,10 @@ Con las entrevistas y la elaboración del affinity map, creamos una user persona
 
 Esta herramienta nos sirvió para identificar y solucionar los puntos relevantes del viaje del usuario. Los puntos a enfocarnos son: la búsqueda de información, la comunicación entre el cliente y la empresa, los medios de pago y el servicio personalizado.
 
-<center>
 
-![Customer Journey Map](ThePlanningCo/Imagenes/customerjourneymap.jpg)
-
-</center>
+<p align="center">
+<img src='src\img\Benchmark.png'>
+</p>
 
 [Proceso del Customer Journey Map](https://drive.google.com/open?id=13whu8XL7CGXEO2hLvr0Ose10GZl_KkQF)
 
