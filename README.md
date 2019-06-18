@@ -1,27 +1,34 @@
 # Tus Finanzas
 
+
+## Introducción 
+
+En la actualidad, dentro del sector de servicios financieros, la revolución digtale ha brindado oportunidades en mercados de todos los tamaños para desbloquear interesantes beneficios económicos a través de la expansión. En consecuencia, el aumento de la adopción de aplicaciones innovadoras, que se les conoce en la industria como "fintech", representa la estrategia para mnatenerse competitivos entre bancos y fidelizar a sus clientes con alta efectividad.  
+
+
 ## Contexto
 
-El banco más importante del país ha lanzado una nueva aplicación móvil al
-mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar
-el ahorro. Luego de tener algunos meses en el mercado y algo de tracción, el
-equipo detrás de este nuevo producto ha decidido contratar a una
-agencia/consultora de UX que los ayude a definir la dirección y evolución del
-producto; la cual estará encargada de presentar un nuevo diseño en dos semanas y de proponer si se debe o no duplicar el presupiesto de Facebook Ads.
+Un banco decidió lanzar una nueva aplicación móvil al mercado para que sus usuarios puedan administar sus gastos, visualizar sus movimientos mensuales y fomentar el ahorro. Luego de un periódo de 6 meses meses en el mercado y algo de tracción, el project manager nos brindó una data para responder 2 preguntas: 
+1. ¿Es conveniente duplicar la inversión en publicidad (facebook ads)?
+2. ¿Qué se podría rediseñar de la aplicación para optimizarla? 
 
-Para lo cual nos proporcionaron la siguiente carpeta: [Carpeta de Data](https://drive.google.com/open?id=1gV6PwrT6SZigVTJ67q8W-dFzGTLePUyK)
+Para lo cual nos proporcionaron la siguiente carpeta:       
+[Carpeta de Data](https://drive.google.com/open?id=1gV6PwrT6SZigVTJ67q8W-dFzGTLePUyK)
 
-## Objetivos
+
+## Objetivos del Proyecto   
 
 - Rediseñar un producto ya existente.
-- Poner en práctica habilidades de: análisis de datos, investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño de componentes de la interfaz y user testing.
+- Analizar data 
+- User testing
+- Diseño de componentes de la interfaz                                                                                                                                     
 
 ## Implementación
 
 Para poder llevar a cabo nuestra investigación se realizó lo siguiente:
 
 |Actividad|Descripción|Puntos|
-|:----|:---|:---:|
+|:----|:---|:---:| eme
 |Entrevistas con cliente|Realización de entrevistas con el cliente (dueño del reto) y establecimiento de sus metas y objetivos.|25|
 |Benchmark| Revisión de features de la competencia y referencias análogas. | 20 |
 |Entrevistas con usuarios| Entrevistas en profundidad con al menos 5 usuarios. | 60 |
@@ -33,45 +40,43 @@ TOTAL | | 295 |
 [Archivo de implementación](https://drive.google.com/open?id=1-1siR0Zi9xdoQZ5iElPtZBqHcOngGFqfqiQqNjMQ-bE)
 
 ***
-## **I. Descubrimiento e Implementación**
 
-## 1. Entrevista con el Product Manager
+## Descubrimiento e Implementación
 
-El primer paso fue acordar una entrevista con Lalo Gonzalez, para poder conversar sobre el banco, los interes que tiene sobre la app financiera, que quiere mejorar; entre más cosas que puedan ser de utilidad para nuestra investigación. 
+### Entrevista con el Cliente
 
-### Documentación:
+En primer lugar, se solicitó una entrevista con Lalo Gonzales, Productor Manager de Aplicaciones Móviles, para comprender los objetivos de la app "Tus Finanzas" y resolver ciertas dudas en relación a los servicios que esta ofrece.  
 
-[Audio de la Entrevista](https://drive.google.com/open?id=1987Mmm6yqmWxv_3TQNohwg5DB2noXEuI)
+Finalmente, se pudo identificar lo siguiente:
 
-### Objetivo del Banco:
+**Objetivo Principal de la App**
+> Fidelizar a sus usuarios a través de la fomentación de una cultura ahorro basada en metas personalizadas.
 
-* Fidelizar y fomentar la cultura de ahorro de los clientes.
+**Características de la App**
+> No se sincroniza con tarjetas de crédito porque es lo opuesto al ahorro.
+> Se realizó solo para el sistema iOS por falta de programadores.
+> En la sección de gastos, los valores de cada categoría es el acumulado de los movimientos diarios del mes.
 
-### Conclusiones:
+**Comentarios del Cliente**    
+> Se debate la decisión de incrementar la inversión en facebook ads porque se capto gran público a través de este medio.
+> Se eligió al user principal por ser nativo digital.
 
-* Selección de paleta de colores de preferencia. Sin embargo, no tiene relación significativa con los colores del banco.
-* User persona principal es un nativo digital, por lo tanto, usaría más rápido la aplicación.
-* No se sincroniza con tarjetas de crédito porque es lo opuesto al ahorro.
-* App enfocada en fomentar una cultura de ahorro en base a contexto y forma de la cuenta de ahorros de sus usuarios.
-* Sistema de fidelización para los usuarios para posicionarse como banco principal.
-* Tendencia a realizar con sistema iOS.
-* Acumulado de movimientos diarios para muestra de gastos mensuales por categoría.
-* El deseo de duplicar la cantidad de facebook ads se debe a que su público actual se captó a través de eso.
+_Documentación_: [Audio de la Entrevista](https://drive.google.com/open?id=1987Mmm6yqmWxv_3TQNohwg5DB2noXEuI)
 
-### Punto a favor:
 
-* Crecimiento notable en los últimos 6 meses.
+### Análisis de la Data
 
-## 2. Análisis de la Data
+Luego, con la data otorgada por el cliente, se propuso determinar si es conveniente duplicar la inversión en facebook ads y verificar si se esta implementando como sistema de fidelización a usuarios. Por lo tanto, se llevo cabo un estudio dónde se obtuvo lo siguiente:
 
-### Objetivos:
 
-* Determinar si se debe duplicar la inversión en facebook ads.
-* Comprobar la fidelización de usuarios.
+**Análisis Funnel**
 
-### Investigación:
 
-Dentro de la data otorgada por el cliente, se pudo identificar ciertos factores que influyen la decisión en relación a la inversión en facebook ads. Estos son los siguientes:
+
+**Visitors-Mobile-Device**
+
+
+
 
 **Análisis Funnel & Visitors-Mobile-Device**
 
