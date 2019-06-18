@@ -28,14 +28,14 @@ Para lo cual nos proporcionaron la siguiente carpeta:
 Para poder llevar a cabo nuestra investigación se realizó lo siguiente:
 
 |Actividad|Descripción|Puntos|
-|:----|:---|:---:| eme
+|:----|:---|:---:|
 |Entrevistas con cliente|Realización de entrevistas con el cliente (dueño del reto) y establecimiento de sus metas y objetivos.|25|
 |Benchmark| Revisión de features de la competencia y referencias análogas. | 20 |
 |Entrevistas con usuarios| Entrevistas en profundidad con al menos 5 usuarios. | 60 |
-|Testeos de las soluciones actuales de la competencia/actual|Sesiones de testing de productos actuales de la competencia para ver qué atributos valoran los usuarios. Al menos 5 usuarios|50|
+|Testeos de las soluciones actuales de la competencia/actual| Sesiones de testing de productos actuales de la competencia para ver qué atributos valoran los usuarios. Al menos 5 usuarios. | 50 |
 |Testeos de prototipos| Sesiones de testing de la solución propuesta (baja, media y alta fidelidad) con al menos 5 usuarios por sesión. | 60 |
 |Prototipado de alta fidelidad| Elaboración de prototipo en base a las pantallas diseñadas. | 80 |
-TOTAL | | 295 |
+|| **TOTAL** | **295** |
 
 [Archivo de implementación](https://drive.google.com/open?id=1-1siR0Zi9xdoQZ5iElPtZBqHcOngGFqfqiQqNjMQ-bE)
 
@@ -50,16 +50,16 @@ En primer lugar, se solicitó una entrevista con Lalo Gonzales, Productor Manage
 Finalmente, se pudo identificar lo siguiente:
 
 **Objetivo Principal de la App**
-> Fidelizar a sus usuarios a través de la fomentación de una cultura ahorro basada en metas personalizadas.
+> - Fidelizar a sus usuarios a través de la fomentación de una cultura ahorro basada en metas personalizadas.
 
 **Características de la App**
-> No se sincroniza con tarjetas de crédito porque es lo opuesto al ahorro.
-> Se realizó solo para el sistema iOS por falta de programadores.
-> En la sección de gastos, los valores de cada categoría es el acumulado de los movimientos diarios del mes.
+> - No se sincroniza con tarjetas de crédito porque es lo opuesto al ahorro.
+> - Se realizó solo para el sistema iOS por falta de programadores.
+> - En la sección de gastos, los valores de cada categoría es el acumulado de los movimientos diarios del mes.
 
 **Comentarios del Cliente**    
-> Se debate la decisión de incrementar la inversión en facebook ads porque se capto gran público a través de este medio.
-> Se eligió al user principal por ser nativo digital.
+> - Se debate la decisión de incrementar la inversión en facebook ads porque se capto gran público a través de este medio.
+> - Se eligió al user principal por ser nativo digital.
 
 _Documentación_: [Audio de la Entrevista](https://drive.google.com/open?id=1987Mmm6yqmWxv_3TQNohwg5DB2noXEuI)
 
@@ -71,51 +71,40 @@ Luego, con la data otorgada por el cliente, se propuso determinar si es convenie
 
 **Análisis Funnel**
 
+Desde el mes de febrero hasta el mes de julio, el número de impresiones de facebook ha sido un número razonablemente grande. Sin embargo, la cantidad de personas que se registra, es decir, usuarios que decidieron utilizar la app es muy pequeña. Esto se debe a que el porcentaje de pérdidas se ha incrementado en un 3.2% en este período.
+
+<p align="center">
+<img src='src\img\funnel_analisis.png'>
+</p>
 
 
 **Visitors-Mobile-Device**
 
+Con respecto a las visitas al landing page, se pudo observar que la publicidad esta captando mayormente a un público que utiliza el sistema Android. Esto significa que no podrán ni descargarse y hacer uso de la aplicación. 
+
+<p align="center">
+<img src='src\img\Anali_Visitors.png'>
+</p>
+
+Adicionalmente, esta pérdida se debe considerar debido a que los celulares son los dispositivos que comprenden un número mayor visitas a diferencia de las tablets y los desktops.
+
+<p align="center">
+<img src='src\img\Anális_Visitors_Mobile.png'>
+</p>
+
+Por lo tanto, se llego a la siguiente conclusión:
+> - Incrementar la inversión en publicidad podría generar mayores pérdidas para el banco, porque gran parte del mercado captado a trvés de facebook posee un sistema diferente al iOS. 
 
 
+## Benchmark
 
-**Análisis Funnel & Visitors-Mobile-Device**
+Después, se realizó un estudio con 6 empresas (3 internacionales y 3 nacionales) para observar las distintas prácticas y, tal vez, adecuarlas a la aplicación móvil. Por lo tanto, en el siguiente cuadro se pueden apreciar ciertas categorías a considerar:
 
-A pesar de que las impresiones de facebook sea un número razonable, desde el mes de su lanzamiento los porcentajes de pérdida aumentaron en un 3,2%.
+<p align="center">
+<img src='src\img\Benchmark.png'>
+</p>
 
-![impresiones en facebook](https://user-images.githubusercontent.com/47750982/59626388-5fd06b00-9101-11e9-9fd1-29bf92ff248c.png)
-
-Y esto se debe a la diferencia de usuarios y nuevos usuarios a nivel de sistemas que poseen los celulares. Los ads de facebook están captando al público que no utiliza el sistema iOS. Por lo tanto, no podrán utilizar la aplicación por poseer el sistema android. 
-
-![android](https://user-images.githubusercontent.com/47750982/59626531-bfc71180-9101-11e9-93cc-cd8e14c5ddf5.png)
-
-Adicionalmente, los celulares son el grupo más influyente entre las tablets y las computadoras.
-
-![mobiles](https://user-images.githubusercontent.com/47750982/59626665-10d70580-9102-11e9-9df8-e2343be174c6.png)
-
-### Conclusión:
-
-* Duplicar la inversión no sería conveniente para la empresa porque generaría pérdidas para el banco.
-
-[Análisis de la Data](https://drive.google.com/open?id=1uc1Ced5KWegtuDysdMprOhE64ZoziE5e)
-
-## 3. Benchmark
-
-En el siguiente cuadro se observa a 6 empresas (3 Internacionales y 3 Nacionales), las cuales fueron seleccionadas de acuerdo a las características y al rubro elegido.
-
-La finalidad del benchmark, era ver cómo empresas del mismo rubro mostraban sus servicios, cuáles eran sus puntos fuertes y que era lo que diferenciaba a cada una. 
-
-![benchmarck](https://user-images.githubusercontent.com/47750982/59627108-197c0b80-9103-11e9-92cf-9a6e651339a3.png)
-
-
-### Conclusiones:
-
-* Sólo 3 de 6 apps cuentan con la opción de personalización de metas.
-* Solo 4 empresas pertenecen a un banco, las otras dos sólo son aplicaciones qu te ayudan a un objetivo concreto.
-* 3 de 6 apps cuentan con Landing Page de la aplicación.
-
-[Cuadro de benchmark](https://drive.google.com/open?id=1roUz9f_Ic_wJ71qReFYALXvParvWEmVyEUNqMudvN1g)
-
-## 4. Entrevista con posibles usuarios
+## Entrevista con posibles usuarios
 
 ### Objetivo:
 
