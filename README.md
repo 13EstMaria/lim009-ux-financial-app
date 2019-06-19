@@ -378,108 +378,61 @@ Luego de plantear los prototipos de baja y media fidelidad, definimos nuestro pr
 
 ## **V. User Testing**
 
+### 1. Entrevistas
+
 Se realizó 5 entrevistas del **Prototipo de Alta Fidelidad** a posibles usuarios de **Tus Finanzas**, dándoles las siguientes tareas:
 
-* Ingresar a la página Nuestros Servicios
-* Ingresar a la página de Galería
-* Ingresar a la página de Testimonios
-* Contactar a The Planning Co
-* Ingresar a la página de Nosotros
-* Volver a la página principal
+* Instala la Aplicación Tus Finanzas.
+* Crea un Usuario en la App Tus Finanzas.
+* Verifica el detalle del último movimiento, realizado en el mes de Mayo.
+* Crea una meta.
+* Verifica el porcentaje de los gastos realizados en el mes de Mayo.
+
+[Testing Online - Maze](https://t.maze.design/3629398)
 
 Terminada las entrevistas se pudo sacar las siguientes conclusiones, las cuales se tendrán en cuenta para poder realizar la iteración.
 
-* Añadir el la lista del menú un botón para regresar a la Pantalla de Inicio.
-* Al costado de cada servicio, colocar un botón que te dirija a la pantalla de Contacto.
-* En la pantalla Contacto considerar 2 opciones: Comunicación directa y Rellenado de Formulario.
+* Al momento de insertar la clave, que sea más específica.
+* Cambiar los íconos del menú.
+* En la pantalla de Home, que exista información de gastos y ahorros.
 
-[User Testing](https://drive.google.com/open?id=12I_0H2iXbE6H18g-Uh5gPq3a-Bv1HWPJ)
+[User Testing](https://drive.google.com/open?id=1Fq7TcjtRBBcPeox5s0dVEOjc2IzUP74uCUADDOuuM9M)
+
+### 2. Prototipo de Alta Fidelidad Final
+
+Terminada las entrevistas se pasó a prototipar las pantallas teniendo en cuenta el feedback recibido.
+
+**CONTRASEÑA**
+
+![ContraseñaCompleta-SignUp](https://user-images.githubusercontent.com/47750982/59778364-f4f76f00-927b-11e9-80cd-73fd79fa092f.png)
+
+**PANTALLA MENU**
+
+![Home](https://user-images.githubusercontent.com/47750982/59778537-4b64ad80-927c-11e9-8e20-f5e327f0c51a.png)
+
+[Prototipado Final](https://drive.google.com/open?id=1mq_APKPGX6jjukix3QdNqmxxXmisXVFg)
+
+[Flujo - Prototipado Final](https://marvelapp.com/4ab84jf/screen/58092759)
 
 ***
 
 ## **VI. Conclusiones**
 
-**¿Cómo los contenidos y funcionalidades responden a los objetivos del proyecto?**
+### 1. Recomendaciones
 
-El objetivo principal de aprendizaje del proyecto era entender cómo pasamos de lo que el cliente quería alcanzar a la definición de un producto digital en poco tiempo; para eso realizamos los siguientes pasos:
+- Comenzar a invertir en programadores Android debido a que, actualmente, la publicidad capta mayormente al público con dispositivos que trabajan con este sistema.
 
--	Acordamos que actividades se realizarían para poder conseguir el objetivo final del proyecto.
+- Indicar a los sus usuarios a dónde se debita el dinero de sus cuentas.
 
--	Se acordó una entrevista con el Cliente (The Planning Co), para poder conocer a la empresa con la cual íbamos a trabajar, cuáles eran sus metas y objetivos.
+- Con respecto a Active Devices, se encontró errores dentro de la data que podría ser crucial para futuras evaluaciones.
 
--	Realizamos el benchmarking a empresas del rubro para conocer cuáles son las fortalezas, debilidades y de qué manera ofrecen sus servicios a los usuarios.
+### 2. Documentación extra
 
--	Tuvimos entrevistas con usuarios de The Planning Co, usuarios de la competencia y con posibles usuarios; así fue que conocimos los puntos que valoran, las necesidades y se pudo construir el perfil general de los usuarios que hacen uso del servicio.
+[Link de video en LOOM](https://www.loom.com/share/ef164b2c4e3b47139d0ec571f3a559d2)
 
--	A partir de las necesidades que se obtuvo con las entrevistas, se realizó la construcción del Prototipo de baja fidelidad, media fidelidad y alta fidelidad, respectivamente; utilizando las herramientas de: construcción de wireframes y contraste de colores.
+[Link carpeta de trabajo en Drive](https://drive.google.com/open?id=1yP5W-szbvWFLFHt-6CVA2_tIIi3JURY-)
 
-**¿Cómo los contenidos y funcionalidades resuelven cada uno de las necesidades del usuario final?**
-
-Luego de haber realizado las entrevistas a los usuarios, se identificó 5 problemas; los cuáles fueron resueltos de la siguiente manera, en el producto digital propuesto:
-
-1. Usuarios necesitan investigar el servicio que contratan, por eso recurren a sus redes sociales o a su página web. 
-
-    Se creó una página web amigable, teniendo en cuenta las necesidades de los usuarios, tratando de no perder el contexto con el cual ya viene trabajando el cliente por Facebook.
-
-2. Valoran ver los trabajos previos y leer sobre las experiencias de otros usuarios.
-
-    En la propuesta de página web, se muestran las opciones de Galería y Testimonios.
-
-    En la opción Galería se puede visualizar las fotos del servicio que ofrece The Planning Co en sus 3 rubros: Matrimonios, Eventos Sociales y Eventos corporativos; a la vez puedes elegir un evento en particular y observar cómo fue realizado.
-
-    En la opción de Testimonios, se puede elegir el tipo de testimonio que desear ver; ya sea Matrimonios, Eventos Sociales o Eventos Corporativos. Además, agregamos la calificación que dieron los usuarios al momento de proporcionar comentarios sobre el servicio que recibieron por parte de The Planning Co.
-
-3. Buscan respuestas rápidas y que el trato sea amable.
-
-    Se creó la opción de Contacto, se tuvo en cuenta que sea los más amigable posible y que no sea muy abrumador; el cual era un formulario, dónde podrían dejar varias de las características de su evento a realizarse y enviarlo al cliente para que pueda armar un presupuesto tentativo y crear varias opciones de la temática, para luego poder comunicarse con el usuario; así acortaríamos el tiempo de respuesta por parte del cliente y ya no esperaríamos todavía una reunión presencial para poder saber el presupuesto en sí.
-
-4. Buscan el servicio integral, esto quiere decir que una persona pueda encargarse de muchas cosas.
-
-    Se creó la opción de Nuestros Servicios, dónde se muestra la lista de las componentes que ofrece The Planning Co, al momento de contratar su servicio.
-
-5. Buscan opciones de pago.
-
-    En el formulario que se encuentra dentro de la Opción Contacto, se consideró la Opción de Pago, para que los usuarios decidan de qué manera pagar el servicio, ya sea al contado o en cuotas.
+[Link de prototipo en Zeplin](zpl.io/V1Q9Egk)
 
 
-***
-
-## **VII. Documentación extra**
-
-[Link de video en LOOM](https://www.loom.com/share/856973e593c54c6ca1c8cf2c24593807)
-
-[Link carpeta de trabajo en Drive](https://drive.google.com/drive/folders/1nzr4TB5-zIKcnTcLqft7vHeyXYVZrWRA?usp=sharing)
-
-[Link de prototipo en Zeplin](zpl.io/aX3dm8K)
-
-
-
-
-
-
-## Entrega
-
-El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
-lo siguiente:
-
-README.md  detallando:
-
-* Objetivos iniciales del proyecto
-* Problemas encontrados tanto a nivel de negocio como a nivel de usuario
-* Recomendaciones de próximos pasos para el banco con respecto al app (estas
-  recomendaciones tendrán que ser sustentadas por tu investigación):
-  * Qué modificaciones se deberían hacer
-  * Cuáles deberían ser los próximos desarrollos
-  * En qué se debería invertir el presupuesto de marketing
-* De acuerdo al punto anterior, de requerirse cambios y desarrollos nuevos,
-  estos deberán ser diseñados y entregados en un prototipo de alta definición.
-* Link de Zeplin, InVision inspects o Marvel Hand-offs para compartir tus
-  diseños con desarrolladores
-
-Un video en Loom de máximo 5 minutos explicando tu documento.
-* Estos 5 minutos tienes que utilizarlos para explicar los puntos indicados en
-  el `README.md` y para hacer un demo de la solución propuesta.
-
-En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
-agregar los documentos complementarios que sustenten tu proceso.
 
